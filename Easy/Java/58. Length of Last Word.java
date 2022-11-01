@@ -5,7 +5,7 @@ class Solution {
         boolean wordFound = false;
         int length = 0;
         
-        // Go over the string looking for 
+        // Go over the string looking for the last word
         for(int i = s.length() - 1; 0 <= i; i--){
             if(Character.isLetter(s.charAt(i))){
                 wordFound = true;
