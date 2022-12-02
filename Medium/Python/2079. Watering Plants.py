@@ -9,7 +9,7 @@ class Solution(object):
             capacity -= plants[i]
             # Check if we can water the next plant
             if(capacity < plants[i + 1]):
-                steps += (2 * (i + 1))
+                steps += 2 * (i + 1)
                 capacity = initialCapacity
             steps += 1
 
