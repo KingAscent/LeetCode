@@ -1,17 +1,16 @@
-var judgeCircle = function(moves) {
-    let x = 0;
-    let y = 0;
+class Solution(object):
+    def judgeCircle(self, moves):
+        x = 0
+        y = 0
 
-    for(let i = 0; i < moves.length; i++){
-        if(moves.charAt(i) == 'U')
-            y++;
-        if(moves.charAt(i) == 'D')
-            y--;
-        if(moves.charAt(i) == 'L')
-            x--;
-        if(moves.charAt(i) == 'R')
-            x++;
-    }
+        for i in range(len(moves)):
+            if moves[i] == 'U':
+                y += 1
+            if moves[i] == 'D':
+                y -= 1
+            if moves[i] == 'L':
+                x -= 1
+            if moves[i] == 'R':
+                x += 1
 
-    return(x == 0 && y == 0);
-};
+        return x == y == 0
