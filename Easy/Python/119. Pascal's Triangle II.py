@@ -10,5 +10,4 @@ class Solution(object):
                 else:
                     row[i].append(row[i - 1][j - 1] + row[i - 1][j])
 
-
         return row[rowIndex]
