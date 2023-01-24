@@ -3,7 +3,7 @@ class Solution {
         // Initialize a jump value
         int jump = 0;
 
-        // Use a for loop to check how far each index alows us to jump
+        // Use a for loop to check how far each index allows us to jump
         // And see if we are able to jump over each zero
         for(int i = 0; i < nums.length; i++){
             if(jump < i)
