@@ -7,7 +7,7 @@ class Solution {
             return n;
         }
 
-        // Initialize array to contain all the values of the Tribonacci sequence\
+        // Initialize array to contain all the values of the Tribonacci sequence
         int[] tri = new int[n + 1];
         tri[0] = 0;
         tri[1] = 1;
