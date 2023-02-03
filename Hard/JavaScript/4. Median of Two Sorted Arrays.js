@@ -19,9 +19,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
     // Sort the array without the sort function (Bubble Sort)
     for(let m = 0; m < merged.length; m++){
         for(let n = m + 1; n < merged.length; n++){
-            let temp = 0;
             if(merged[n] < merged[m]){
-                temp = merged[m];
+                let temp = merged[m];
                 merged[m] = merged[n];
                 merged[n] = temp;
             }
