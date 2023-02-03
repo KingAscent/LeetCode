@@ -20,9 +20,8 @@ class Solution {
         // Sort the array without the sort function (Bubble Sort)
         for(int m = 0; m < merged.length; m++){
             for(int n = m + 1; n < merged.length; n++){
-                int temp = 0;
                 if(merged[n] < merged[m]){
-                    temp = merged[m];
+                    int temp = merged[m];
                     merged[m] = merged[n];
                     merged[n] = temp;
                 }
