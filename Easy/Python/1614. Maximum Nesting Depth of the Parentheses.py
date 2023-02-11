@@ -7,7 +7,7 @@ class Solution(object):
             if s[i] == '(':
                 open_paren += 1
                 depth = max(depth, open_paren)
-            if s[i] = ')':
+            if s[i] == ')':
                 open_paren -= 1
         
         return depth
