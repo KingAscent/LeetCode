@@ -1,5 +1,5 @@
 # LeetCode | Nov. 2022 - Present
-LeetCode solutions by a self-taught software engineer, for practicing more complex problems.
+LeetCode solutions by an aspiring self-taught software engineer, for practicing more complex problems.
 
 **Please do not use these solutions for academic purposes, I am not held accountable
 for any academic use of these solutions.** 
