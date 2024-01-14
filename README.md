@@ -1,4 +1,5 @@
 # LeetCode | Nov. 2022 - Present
+>Currently not working on LeetCode right now.
 LeetCode solutions by an aspiring self-taught software engineer, for practicing more complex problems.
 
 **Please do not use these solutions for academic purposes, I am not held accountable
